@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3" href="#home">MY PORTFOLIO</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link px-lg-4 rounded" href="#home">Home</a>
+                    <a class="nav-link px-lg-4 rounded" href="#about">About Me</a>
+                    <a class="nav-link px-lg-4 rounded" href="#skills">Skills</a>
+                    <a class="nav-link px-lg-4 rounded" href="#contact">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main section start -->
+    
+    <section class="main py-5" id="home">
+        <div class="container py-5">
+            <div class="row py-5">
+                <div class="col-lg-6 py-5 mr-auto">
+                    <h6> Hi, My Name is <strong>Mark Martin</strong></h6>
+                    <h3><span style="font-weight: normal;" > I am </span><br>
+                        <span class="auto-type">  </span>
+                    </h3>
+                    <a href="My Resume.pdf" download="My Resume.pdf" class="bt1 mt-5 mr-3">
+                        <i class="fa fa-download"> </i> My Resume
+                    </a>
+                    <a href="https://drive.google.com/drive/folders/1Ptf0zoVruG2kSLfmbRf-CApYW2GfCPcG?usp=drive_link" class="bt2 mt-5" target="_blank">Projects</a>
+                </div>
+                <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                <script>
+                    var typed = new Typed(".auto-type",{
+                        strings : ["Programmer.", "Engineer."],
+                        typeSpeed : 100,
+                        backSpeed : 100,
+                        loop : 100.
+                    }) 
+                </script>
+            </div>
+        </div>
+    </section>
+
+     <!-- about me section start -->
+
+    <section class="about py-5" id="about">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="me_about.jpg" data-aos="fade-right" data-aos-duration="1500" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h1 data-aos="zoom-in" data-aos-duration="1500">About Me</h1>
+                    <p data-aos="zoom-in" data-aos-duration="1500"> COMPUTER ENGINEERING STUDENT</p>
+                    <p class="py-3" data-aos="zoom-in" data-aos-duration="1500"> I am <span class="font-weight-bold"> Mark Martin Mercado </span> a motivated Computer Engineering Student with a foundational knowledge of
+                        programming and computer hardware components. Proficient in basic programming languages and known
+                        for being resourceful and adaptable. Seeking opportunities to apply skills in a practical setting, contribute
+                        to team projects, and continue learning in a dynamic and supportive environment. </p>
+                    <h3 data-aos="zoom-in" data-aos-duration="1500">Educational Background</h3>
+                    <p class="py-3" data-aos="zoom-in" data-aos-duration="1500">
+                        <strong>Elementary:</strong> Nasugbu West Central School, graduated 2016.
+                        <br><br>
+                        <strong>High School:</strong> Payapa National High School, graduated 2020.
+                        <br><br>
+                        <strong>Senior High School:</strong> Our Lady of Caysasay Academy, graduated 2022.
+                        <br><br>
+                        <strong>College:</strong> University of the East - Manila, still pursuing Bachelor of Science in Computer Engineering.
+                    </p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section start -->
+
+    <section class="skills py-5 bg-light" id="skills">
+        <div class="container py-5">
+            <h1 class="text-center pb-5" data-aos="zoom-in" data-aos-duration="1500">Skills</h1>
+            <div class="row pb-3">
+                
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fab fa-android"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Android</h4>
+                            <p>Proficient in Android programming, 
+                            including developing and maintaining mobile applications using Kotlin,
+                             and optimizing performance for a seamless user experience.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3" data-aos="fade-down" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-laptop-code"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Web Design</h4>
+                            <p>Skilled in web design, with expertise in creating responsive, 
+                                user-friendly websites using HTML, CSS, and 
+                                bootstrap to deliver visually appealing and functional interfaces.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-database"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">SQL</h4>
+                            <p>Knowledgeable in SQL, with experience in writing complex queries, 
+                                optimizing database performance, and managing data in relational databases like MySQL.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3" data-aos="fade-right" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fab fa-python"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Python</h4>
+                            <p>Proficient in Python programming, 
+                                capable of developing scripts for automation, data manipulation, and basic 
+                                application development, average library such as PyCharm.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-tools"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">PC Troubleshooting</h4>
+                            <p>Skilled in PC troubleshooting, including diagnosing and 
+                                resolving hardware and software issues, optimizing performance, and providing effective solutions for various technical problems.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3">
+                    <div class="card text-center py-3" data-aos="fade-left" data-aos-duration="1500">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-microchip"></i></span>
+                            </div>
+                            <h4 class="font-weight-bold pb-2">Arduino</h4>
+                            <p>Skilled in Arduino programming, including developing and 
+                                implementing microcontroller projects, interfacing with sensors, 
+                                and using the Arduino IDE for automation and control applications.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section start -->
+    
+    <section class="contact py-5" id="contact">
+        <div class="container py-5">
+            <h1 class="text-center" data-aos="zoom-in" data-aos-duration="1500">Contact Me</h1>
+            <div class="row py-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4" data-aos="fade-right" data-aos-duration="1500">
+                            <div class="circle">
+                                <span><i class="fas fa-location"></i></span>
+                            </div>
+                            <h5> Address </h5>
+                            <p>
+                                029 R. Diokno Highway, Payapa Ilaya, Lemery, Batangas.
+                            </p>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-up" data-aos-duration="1500">
+                            <div class="circle">
+                                <span><i class="fas fa-envelope"></i></span>
+                            </div>
+                            <h5> Email </h5>
+                            <p>
+                                mm05mercado@gmail.com
+                            </p>
+                        </div>
+                        <div class="col-lg-4" data-aos="fade-left" data-aos-duration="1500">
+                            <div class="circle">
+                                <span><i class="fab fa-linkedin"></i></span>
+                            </div>
+                            <h5>LinkedIn</h5>
+                            <p>
+                                <a href="https://www.linkedin.com/in/mark-martin-mercado-81081a325" target="_blank">Mark Martin Mercado</a>
+                            </p>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <form action="mailto:your-email@gmail.com" method="POST" enctype="text/plain">
+                <div class="form-row">
+                    <div class="col-lg-12">
+                        <input type="text" class="form-control bg-light mb-3" placeholder="Name" name="name" required data-aos="fade-up" data-aos-duration="1500">
+                    </div>
+                    <div class="col-lg-12">
+                        <input type="email" class="form-control bg-light mb-3" placeholder="Email" name="email" required data-aos="fade-up" data-aos-duration="1500">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-lg-12">
+                        <textarea name="message" class="form-control bg-light" placeholder="Message" required data-aos="fade-up" data-aos-duration="1000"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn3 my-4" data-aos="fade-up" data-aos-duration="1500">Submit</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer class="py-3 text-center">
+        <div class="wrapper">
+           <p>© 2024 Mark Martin Mercado. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        AOS.init();
+      </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+        
+            function changeNav() {
+                let index = sections.length;
+        
+                while (--index && window.scrollY + 200 < sections[index].offsetTop) {}
+                
+                navLinks.forEach((link) => link.classList.remove('active'));
+                navLinks[index].classList.add('active');
+            }
+        
+            changeNav(); 
+        
+            window.addEventListener('scroll', changeNav);
+        });
+        </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
